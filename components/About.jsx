@@ -50,7 +50,7 @@ const About = () => {
             className="bg-white/50 backdrop-blur-sm rounded-2xl p-6 max-w-2xl mx-auto border border-white/20"
           >
             <p className="text-primary-navy font-semibold italic">
-              "{aboutContent.mission}"
+              &quot;{aboutContent.mission}&quot;
             </p>
           </motion.div>
         </motion.div>
