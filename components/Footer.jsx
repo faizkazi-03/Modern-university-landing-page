@@ -12,7 +12,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold gradient-text mb-4">UniVerse</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">JG University</h3>
             <p className="text-gray-400 mb-4">
               Empowering minds, shaping futures. Join our community of learners and innovators.
             </p>
@@ -120,7 +120,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} UniVerse. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} JG University. All rights reserved.</p>
         </div>
       </div>
     </footer>
